@@ -46,5 +46,7 @@ I believe strong AI systems are built on **mathematical clarity, algorithmic eff
 ---
 
 📫 GitHub: @Jason421412  
+📫 Email: jason421412@gmail.com
+
 
 ⚡ Fun fact: I care more about *why an algorithm works* than *how fast I can code it*.
