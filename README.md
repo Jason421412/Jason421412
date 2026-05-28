@@ -1,64 +1,81 @@
 # Hi, I'm Jiachen Xu
 
-AI-focused Computer Science student at the University of Malaya, building production-style software systems across AI, web, backend, and data-driven applications.
+AI-focused Computer Science student at the University of Malaya building practical AI products, data tools, full-stack systems, and backend/data infrastructure.
 
-## About
+## Focus Areas
 
-- Bachelor of Computer Science student majoring in Artificial Intelligence at the University of Malaya.
-- Interested in AI engineering, backend systems, algorithms, and practical product development.
-- Focused on building systems that are deployable, maintainable, and useful beyond coursework.
-- Currently improving real-world engineering depth through full-stack, data-driven, and AI-assisted products.
+- AI product engineering
+- Machine learning and data analytics
+- Full-stack web applications
+- Backend, database, and data integrity
+- Practical automation and tooling
 
-## What I'm Building
+## Featured Projects
+
+### PersonaVault AI
+
+Personal identity, document vault, proof-pack sharing, and AI authenticity checker MVP.
+
+- **Tech stack:** Next.js App Router, TypeScript, Tailwind CSS, shadcn-style components, Supabase Auth, Supabase Postgres, Supabase Storage, Zod.
+- **What I implemented:** Protected Supabase auth flow, app shell, verified profile editor, public profile page, document vault upload/delete implementation, SHA-256 document hashing, schema/RLS documentation, and audit log insertion for profile and vault actions.
+- **Why it matters technically:** Shows full-stack product architecture around identity, privacy, server-side session handling, user-scoped data access, and a roadmap toward AI-assisted authenticity review.
 
 ### Receipt AI Autofill
 
-An AI-assisted receipt extraction workflow that turns a receipt image into structured fields for human review.
+AI-assisted receipt extraction app that converts receipt images into editable structured form data with human review.
 
 - **Tech stack:** Next.js App Router, TypeScript, Tailwind CSS, Gemini Vision API, server-side route handlers.
-- **What I implemented:** Image upload validation, server-side AI extraction endpoint, structured JSON parsing, editable review form, raw model-output preview, and local browser persistence.
-- **Why it matters technically:** Shows practical AI automation with a server boundary for API keys, defensive parsing, and a human-in-the-loop review step instead of blindly trusting model output.
+- **What I implemented:** Server-side Gemini API boundary, image upload validation, receipt preview, structured JSON parsing, editable review form, raw model output preview, defensive error handling, and local browser persistence.
+- **Why it matters technically:** Demonstrates practical AI automation with human-in-the-loop review and a safe API-key boundary instead of exposing model credentials to the browser.
+
+### Makerspace Inventory Intelligence
+
+Python toolkit for cleaning, searching, auditing, and analyzing makerspace inventory records.
+
+- **Tech stack:** Python, argparse CLI, dataclasses, CSV processing, Streamlit, unittest, GitHub Actions.
+- **What I implemented:** CLI commands for summary, issue ranking, search, duplicate detection, and visualization; synthetic/sanitized sample data; tests for analysis/search behavior; and CI for automated verification.
+- **Why it matters technically:** Shows data tooling judgment: clean models, reproducible sample data, useful CLI workflows, lightweight analytics, and privacy-aware public documentation.
+
+### KTM Ridership Prediction
+
+Regression-based machine learning workflow for hourly KTM Komuter ridership prediction.
+
+- **Tech stack:** Python, Jupyter Notebook, pandas, NumPy, scikit-learn, visualization libraries, gradient-boosting libraries.
+- **What I implemented:** Notebook-oriented workflow for loading ridership data, preprocessing, temporal/holiday feature engineering, model comparison, and evaluation planning.
+- **Why it matters technically:** Shows a reproducible ML workflow mindset for transport-demand forecasting while documenting dataset and reproducibility limitations honestly.
+
+### Badan Warisan Membership PWA
+
+Mobile-first membership portal prototype using React, Tailwind CSS, Vite, and Supabase.
+
+- **Tech stack:** React, TypeScript, Vite, Tailwind CSS, Supabase Auth/client, Radix-style UI primitives.
+- **What I implemented:** Prototype membership flows for sign-up/login, profile and address completion, membership screens, event registration, tickets, donations, community features, and admin scanner concepts.
+- **Why it matters technically:** Demonstrates domain-specific full-stack UI planning, Supabase integration, and careful separation between prototype workflows and production services such as payments or SMS.
 
 ### SmartWater Monitoring App
 
-An Android and Flutter add-to-app client for IoT water quality monitoring, pollution reporting, and community discussion.
+Android/Flutter water quality monitoring client with sensor ingestion, analytics, GPS reporting, and backend integration.
 
-- **Tech stack:** Java, Android SDK, Retrofit, OkHttp, Bluetooth RFCOMM/SPP, Google Maps, Flutter, Provider, fl_chart.
-- **What I implemented:** Mobile dashboard screens, Bluetooth sensor ingestion flow, REST API integration, JWT request interceptor, GPS-based report flow, charting, and Flutter dashboard module.
-- **Why it matters technically:** Demonstrates mobile engineering beyond CRUD: sensor data handling, API client design, authentication flow, location features, and multi-platform UI work.
+- **Tech stack:** Java, Android SDK, Retrofit, OkHttp, Bluetooth APIs, Google Maps, Flutter, Dart, Provider, fl_chart.
+- **What I implemented:** Android client screens, Bluetooth sensor ingestion flow, Retrofit API layer, JWT request interceptor, GPS pollution reporting, community-feed UI, and a Flutter dashboard module.
+- **Why it matters technically:** Shows mobile engineering across device APIs, external backend integration, local token handling, charts, maps, and mixed native/Flutter UI work.
 
-### Restaurant Operations Database System
+## Technical Strengths
 
-An Oracle SQL database system for restaurant order processing, billing validation, and operational reporting.
+- **Languages:** TypeScript, JavaScript, Python, Java, SQL, Dart
+- **Frontend:** Next.js, React, Vite, Tailwind CSS, Flutter, Android UI
+- **Backend & Database:** Supabase, PostgreSQL concepts, Oracle SQL/PLSQL, REST APIs, authentication, data modeling
+- **AI / ML / Data:** AI-assisted extraction, prompt design for structured output, tabular ML workflows, data preprocessing, CLI analytics
+- **Tools:** Git, GitHub Actions, Vercel-style deployment workflows, Jupyter, Streamlit, Android Studio
 
-- **Tech stack:** Oracle SQL, PL/SQL triggers, sequences, constraints, views, relational schema design.
-- **What I implemented:** Normalized schema, order-detail relationships, validation constraints, compound triggers for order-total recalculation, seed data, and reporting queries.
-- **Why it matters technically:** Shows database design fundamentals, transaction integrity, and business-rule enforcement at the data layer.
+## Currently Improving
 
-### Algorithm Design and Analysis
+- Testing and CI coverage across portfolio projects
+- Reproducible ML workflows and clearer dataset documentation
+- Secure environment configuration and secret-handling practices
+- Architecture documentation that explains trade-offs, not just screenshots
 
-A structured repository for implementing and reviewing core algorithmic techniques in Python.
-
-- **Tech stack:** Python, sorting algorithms, searching foundations, complexity analysis notes.
-- **What I implemented:** Python implementations of classic sorting algorithms and organized lab/tutorial work for algorithm practice.
-- **Why it matters technically:** Supports the CS fundamentals expected for software engineering interviews: decomposition, correctness reasoning, and time/space complexity.
-
-## Technical Focus
-
-- **Languages:** TypeScript, JavaScript, Java, Python, SQL, Dart
-- **Web & App:** Next.js, React, Vite, Tailwind CSS, Flutter, Android
-- **Backend & Data:** Supabase, PostgreSQL concepts, Oracle SQL, REST APIs, authentication, database design
-- **AI / ML:** AI-assisted extraction, prompt design for structured output, regression modeling, data preprocessing
-- **CS Foundations:** Data structures, algorithms, sorting, complexity analysis, relational modeling
-
-## Current Direction
-
-- Building production-quality student and community software with clearer architecture, documentation, and deployment paths.
-- Strengthening backend, cloud, database, and AI engineering fundamentals through applied projects.
-- Preparing for software engineering and AI engineering internships in Malaysia, especially Kuala Lumpur.
-
-## Selected Links
+## Contact
 
 - GitHub: [@Jason421412](https://github.com/Jason421412)
-- Email: [jason421412@gmail.com](mailto:jason421412@gmail.com)
-- Live demo: [Receipt AI Autofill](https://receipt-ai-autofill-eta.vercel.app)
+- LinkedIn: available through my GitHub profile links
